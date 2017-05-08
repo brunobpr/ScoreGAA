@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("http://www.gaa.ie/football/football-league-roinn-1/results"));
+                intent.setData(Uri.parse("https://www.facebook.com/delfinenglishschool/"));
                 startActivity(intent);
             }
         });
